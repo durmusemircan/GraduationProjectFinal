@@ -42,7 +42,7 @@ class Ui_textWindow(object):
 "")
         self.centralwidget.setObjectName("centralwidget")
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser.setGeometry(QtCore.QRect(90, 160, 421, 51))
+        self.textBrowser.setGeometry(QtCore.QRect(90, 150, 451, 71))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -113,6 +113,10 @@ class Ui_textWindow(object):
         self.backButton.setObjectName("backButton")
         self.textBrowser_3 = QtWidgets.QTextBrowser(self.centralwidget)
         self.textBrowser_3.setGeometry(QtCore.QRect(960, 190, 931, 601))
+        font = QtGui.QFont()
+        font.setFamily("Newsreader")
+        font.setPointSize(15)
+        self.textBrowser_3.setFont(font)
         self.textBrowser_3.setObjectName("textBrowser_3")
         self.backButton_2 = QtWidgets.QPushButton(self.centralwidget)
         self.backButton_2.setGeometry(QtCore.QRect(1460, 800, 131, 61))
@@ -134,9 +138,17 @@ class Ui_textWindow(object):
         self.label.setObjectName("label")
         self.textEdit_4 = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_4.setGeometry(QtCore.QRect(960, 800, 461, 41))
+        font = QtGui.QFont()
+        font.setFamily("Newsreader")
+        font.setPointSize(14)
+        self.textEdit_4.setFont(font)
         self.textEdit_4.setObjectName("textEdit_4")
         self.textBrowser_5 = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser_5.setGeometry(QtCore.QRect(280, 460, 191, 41))
+        self.textBrowser_5.setGeometry(QtCore.QRect(90, 530, 461, 161))
+        font = QtGui.QFont()
+        font.setFamily("Newsreader")
+        font.setPointSize(20)
+        self.textBrowser_5.setFont(font)
         self.textBrowser_5.setStyleSheet("  border-radius: 40px;\n"
 "")
         self.textBrowser_5.setObjectName("textBrowser_5")
@@ -172,5 +184,5 @@ class Ui_textWindow(object):
         self.textBrowser_5.setHtml(_translate("textWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Whats on your mind</span></p></body></html>"))
+"</style></head><body style=\" font-family:\'Newsreader\'; font-size:20pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">What is on your mind?</p></body></html>"))
